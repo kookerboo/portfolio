@@ -8,41 +8,49 @@ const userData = {
   address: "Ontario, Canada",
   projects: [
     {
+      id: 0,
       title: "Tailwind Master Kit",
       link: "https://tailwindmasterkit.com",
       imgUrl: "/tmk.jpg",
     },
     {
+      id: 1,
       title: "PlaceholderTech",
       link: "https://placeholdertech.in",
       imgUrl: "/placeholdertech.png",
     },
     {
+      id: 2,
       title: "Portfolio",
       link: "https://manuarora.in",
       imgUrl: "/portfolio.png",
     },
     {
+      id: 3,
       title: "CovidRescue",
       link: "https://covidrescue.co.in",
       imgUrl: "/covidrescue.png",
     },
     {
+      id: 4,
       title: "Algochurn",
       link: "https://algochurn.com",
       imgUrl: "/algochurn.png",
     },
     {
+      id: 5, 
       title: "Playground",
       link: "https://play.placeholdertech.in",
       imgUrl: "/playground.png",
     },
     {
+      id: 6,
       title: "Feedmeback",
       link: "https://feedmeback.vercel.app",
       imgUrl: "/feedmeback.png",
     },
     {
+      id: 7,
       title: "Devmedium",
       link: "https://devmedium.vercel.app",
       imgUrl: "/devmedium.png",
@@ -61,6 +69,7 @@ const userData = {
   },
   experience: [
     {
+      id: 0,
       title: "Senior Developer",
       company: "Atlas Van Lines Canada Ltd.",
       year: "2014 - 2022",
@@ -71,6 +80,7 @@ const userData = {
       ],
     },
     {
+      id: 1,
       title: "Computer Programmer",
       company: "Sheridan College",
       year: "2011 - 2013",

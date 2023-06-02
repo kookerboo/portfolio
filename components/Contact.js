@@ -2,6 +2,27 @@ import React from "react";
 import userData from "@constants/data";
 
 export default function Contact() {
+  async function handleSubmit(e) {
+    e.preventDefault();
+    const data = new FormData(e.currentTarget);
+    //console.log(data);  // remove this at some point
+    try {
+      const response = await fetch('../api/contact', {
+        method: 'post',
+        body: new URLSearchParams(data),
+      });
+      if (!response.ok) {
+        throw new Error(`Invalid response: ${response.status}`);
+      }
+      alert('Thanks for contacting us, we will get back to you soon!');
+    } catch (err) {
+      console.error(err);
+      alert("Something went wrong.  Try again later.");
+    }
+  }
+
+
+
   return (
     <section>
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800 antialiased">
@@ -21,7 +42,7 @@ export default function Contact() {
               </p>
             </header>
             <div className="icons-container inline-flex flex-col my-20">
-              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-blue-500 p-4">
+              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#7169D6] hover:border hover:border-blue-500 p-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -39,7 +60,7 @@ export default function Contact() {
                   {userData.phone}
                 </p>
               </div>
-              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-blue-500 p-4">
+              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#7169D6] hover:border hover:border-blue-500 p-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -54,7 +75,7 @@ export default function Contact() {
                   {userData.email}
                 </p>
               </div>
-              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-blue-500 p-4">
+              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#7169D6] hover:border hover:border-blue-500 p-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -121,7 +142,7 @@ export default function Contact() {
               </a>
             </div>
           </div>
-          <form className="form rounded-lg bg-white p-4 flex flex-col">
+          <form className="form rounded-lg bg-white p-4 flex flex-col" onSubmit={handleSubmit}>
             <label htmlFor="name" className="text-sm text-gray-600 mx-4">
               {" "}
               Your Name

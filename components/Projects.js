@@ -14,10 +14,11 @@ export default function Projects() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
           {userData.projects.map((proj, idx) => (
             <ProjectCard
+              key={proj.id}
               title={proj.title}
               link={proj.link}
               imgUrl={proj.imgUrl}
-              number={`${idx + 1}`}
+              number={`${proj.id + 1}`}
             />
           ))}
         </div>
