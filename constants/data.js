@@ -74,11 +74,8 @@ const userData = {
     "https://drive.google.com/file/d/1-Y55aE5bWKHKxPUjcUVG6_Xyzm90Q7_c/view?usp=sharing",
   socialLinks: {
     instagram: "https://instagram.com/kookerboo",
-    // twitter: "https://twitter.com/mannupaaji",
     linkedin: "https://linkedin.com/in/clairebrockelbank",
     github: "https://github.com/kookerboo",
-    // facebook: "https://facebook.com/",
-    // peerlist: "https://peerlist.io/manuarora",
   },
 };
 

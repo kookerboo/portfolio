@@ -11,7 +11,7 @@ export default function Home({ repositories }) {
   return (
     <ContainerBlock
       title="Claire Johnston - Developer, Programmer, Analyst"
-      description="I've been a developer for 9 years. This is my porfolio website. "
+      description="I've been a developer for 10 years. This is my porfolio website. "
     >
       <Hero />
       <FavouriteProjects />
@@ -25,7 +25,6 @@ export const getServerSideProps = async () => {
   let token = process.env.GITHUB_AUTH_TOKEN;
 
   const repositories = await getLatestRepos(userData, token);
-  // console.log("REPOSITORIES", repositories);
 
   return {
     props: {
