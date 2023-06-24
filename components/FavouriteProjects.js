@@ -55,7 +55,7 @@ export default function FavouriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://clairejohnston.ca https://github.com/kookerboo/events"
+            href="https://github.com/kookerboo/events"
             className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
           >
             <div className="relative overflow-hidden">
