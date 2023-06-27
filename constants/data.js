@@ -54,7 +54,7 @@ const userData = {
       id: 0,
       title: "Senior Developer",
       company: "Atlas Van Lines Canada Ltd.",
-      year: "2014 - 2022",
+      year: "2014 - 2023",
       companyLink: "https://atlasvanlines.ca",
       desc: [
       "Lead developer responsible for numerous migration projects, ensuring smooth transitions and timely delivery of results.  ",
