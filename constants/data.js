@@ -65,7 +65,7 @@ const userData = {
       id: 1,
       title: "Computer Programmer",
       company: "Sheridan College",
-      year: "2011 - 2013",
+      year: "2013",
       companyLink: "https://www.sheridancollege.ca/programs/computer-programming",
       desc: "Obtained a Computer Programmer Diploma.  Courses included Java, C# and .NET, Web Development, Database design, Systems analysis and design, Network communications and configurations."
     },
