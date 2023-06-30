@@ -1,7 +1,7 @@
 const userData = {
   githubUsername: "kookerboo",
   name: "Claire Johnston",
-  designation: "Full-Stack Developer",
+  designation: "Developer & IT Professional",
   avatarUrl: "/avatar.png",
   email: "hello@clairejohnston.ca",
   phone: "+19053990575",
