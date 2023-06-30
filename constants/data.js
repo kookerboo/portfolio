@@ -40,9 +40,9 @@ const userData = {
   ],
   about: {
     title:
-      "Hello, I'm Claire Johnston, a passionate and dedicated Developer with 10 years experience.",
+      "Hello, I'm Claire Johnston, a passionate and dedicated Developer and IT Professional with 10 years experience.",
     description: [
-      "Throughout my career, I have honed my skills in front and back end development.  I am driven by a strong desire to create innovative and user-centric solutions that make a meaningful impact.",
+      "Throughout my career, I have honed my skills in front and back end development, problem-solving and technical support.  I am driven by a strong desire to create innovative and user-centric solutions that make a meaningful impact.",
       "With a keen eye for detail and a commitment to delivering excellence, I thrive in dynamic environments where creativitiy and problem-solving are valued.  I have collaborated with talented teams on diverse projects, delivering high-quality solutions that exceed client expectations.  I am well-versed in HTML, CSS, JavaScript, and React and stay updated with the latest industry trends and best practices.",
       "Beyond my technical skills, I am a great communicator and enjoy collaborating with cross-functional teams.  I pride myself on my ability to effectively translate complex technical concepts into user-friendly language, ensuring smooth communication between technical and non-technical stakeholders.  My portfolio showcases a range of projects that highlight my skills and expertise."
     ],
@@ -71,7 +71,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1-Y55aE5bWKHKxPUjcUVG6_Xyzm90Q7_c/view?usp=sharing",
+    "https://drive.google.com/file/d/10zYRizinVFxo4dQxl7_N5dQPQf5V3xe5/view?usp=sharing",
   socialLinks: {
     instagram: "https://instagram.com/kookerboo",
     linkedin: "https://linkedin.com/in/clairebrockelbank",
